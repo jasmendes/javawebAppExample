@@ -36,6 +36,9 @@
     <small>© 2025 Jaumendes. Todos os direitos reservados.</small>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoYz1HiPTnKc1zj5DQ9uueS/tE3r3C1z5G7rXKdf19Udh1z"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
