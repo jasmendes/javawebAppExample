@@ -31,6 +31,8 @@
 <body>
   <h2>Bem-vindo ao site de tutoriais do Jaumendes!</h2>
   <h2>Para mais informações, visite:</h2>
-  <h2><a href="https://www.jaumendes.pt" target="_blank">www.jaumendes.pt</a></h2>
+  <h2> <a href="https://www.jaumendes.pt" target="_blank" rel="noopener noreferrer">
+    www.jaumendes.pt
+  </a></h2>
 </body>
 </html>
