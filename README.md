@@ -84,9 +84,22 @@ Este projeto utiliza um ambiente local com múltiplos serviços via Docker para 
 
 ### 🚀 Subindo o ambiente
 
+
 ```bash
 docker-compose up -d
 
 
+ngrok http 8088
 
+📦 Pipeline
+O pipeline realiza as seguintes etapas automaticamente após push:
 
+Clone do repositório
+
+Build com Maven
+
+Análise com SonarQube
+
+Publicação do artefato no Artifactory
+
+Deploy no WildFly
