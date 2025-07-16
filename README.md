@@ -24,8 +24,8 @@ Este projeto é um exemplo básico de uma aplicação web desenvolvida com Java,
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/jaumendes-tutorials.git
-    cd jaumendes-tutorials
+    git clone https://github.com/jasmendes/javawebAppExample.git
+    cd javawebAppExample
     ```
 
 2. Execute o projeto (caso esteja usando Spring Boot):
