@@ -58,3 +58,35 @@ Este projeto é um exemplo básico de uma aplicação web desenvolvida com Java,
 visit public instead
 https://de0802f5618b.ngrok-free.app/webappExample
 
+---
+## 🐳 Docker Setup (Jenkins, WildFly, Artifactory)
+
+Este projeto utiliza um ambiente local com múltiplos serviços via Docker para CI/CD automatizado.
+
+### 🔧 Pré-requisitos
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [ngrok](https://ngrok.com/) (para expor Jenkins ao GitHub)
+- Conta no [GitHub](https://github.com/)
+
+---
+
+### ⚙️ Serviços Docker Utilizados
+
+| Serviço     | Porta Local | Descrição                  |
+|-------------|-------------|----------------------------|
+| Jenkins     | 8088        | Servidor CI/CD             |
+| WildFly     | 9990        | Servidor de aplicação Java |
+| Artifactory | 8081        | Repositório de artefatos   |
+
+---
+
+### 🚀 Subindo o ambiente
+
+```bash
+docker-compose up -d
+
+
+
+
